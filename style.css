@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background: url("Images/fit-women-hd.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: top;
+  color: white;
+}
+.left {
+  /* border: 2px solid rebeccapurple; */
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 12px;
+}
+.left img {
+  width: 80px;
+  filter: invert(100%);
+  display: block;
+  margin: auto;
+}
+
+.logo {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  color: #ede9e9;
+}
+.mid {
+  /* border: 2px solid yellowgreen; */
+  display: block;
+  width: 36%;
+  margin: 12px auto;
+  position: absolute;
+  left: 29%;
+}
+.navbar li {
+  display: inline-block;
+  padding: 0px 12px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: khaki;
+}
+.right {
+  /* border: 2px solid orangered; */
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 23px;
+}
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin: 3px 2px;
+  padding: 4px 14px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: khaki;
+  opacity: 0.6;
+}
+.container {
+  width: 40%;
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 70px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 5px;
+  margin: 50px 20px;
+}
+.container h1 {
+  text-align: center;
+}
+.form-group input {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  display: block;
+  width: 450px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 4px 5px;
+}
+.container .btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  display: block;
+  width: 461px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 25px auto;
+  padding: 4px 5px;
+}
